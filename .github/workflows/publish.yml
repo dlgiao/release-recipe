@@ -44,7 +44,7 @@ jobs:
           node-version: 21.x
           registry-url: https://npm.pkg.github.com
 
-      - name: Build adn test
+      - name: Build and test
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
