@@ -36,7 +36,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            types=sha,format=long
+            type=sha,format=long
 
       - name: Setup environment
         uses: actions/setup-node@v4.4.0
