@@ -1,5 +1,5 @@
 const express = require('express');
-const greet = require('@wulfland/package-recipe/src/index')
+const greet = require('@dlgiao/packagerecipe/src/index')
 const app = express();
 const port = 3000;
 

@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wulfland/release-recipe.git"
+    "url": "git+https://github.com/dlgiao/release-recipe.git"
   },
   "author": "Michael Kaufmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wulfland/release-recipe/issues"
+    "url": "https://github.com/dlgiao/release-recipe/issues"
   },
-  "homepage": "https://github.com/wulfland/release-recipe#readme",
+  "homepage": "https://github.com/dlgiao/release-recipe#readme",
   "dependencies": {
-    "@wulfland/package-recipe": "^3.1.1",
+    "@dlgiao/packagerecipe": "1.0.0" ,
     "express": "^4.21.1"
   }
 }
